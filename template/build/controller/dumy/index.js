@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.deleteDumyController = exports.updateDumyController = exports.addDumyController = exports.getDumyController = void 0;
+const getDumyController_1 = require("./getDumyController");
+Object.defineProperty(exports, "getDumyController", { enumerable: true, get: function () { return getDumyController_1.getDumyController; } });
+const addDumyController_1 = require("./addDumyController");
+Object.defineProperty(exports, "addDumyController", { enumerable: true, get: function () { return addDumyController_1.addDumyController; } });
+const updateDumyController_1 = require("./updateDumyController");
+Object.defineProperty(exports, "updateDumyController", { enumerable: true, get: function () { return updateDumyController_1.updateDumyController; } });
+const deleteDumyController_1 = require("./deleteDumyController");
+Object.defineProperty(exports, "deleteDumyController", { enumerable: true, get: function () { return deleteDumyController_1.deleteDumyController; } });

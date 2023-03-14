@@ -1,17 +1,18 @@
 {
 	"name": "ardelon-api-template",
-	"version": "0.0.4",
+	"version": "0.0.14",
 	"description": "",
 	"main": "index.js",
 	"bin": {
-		"get-set-node-oss": "index.js"
+		"get-set-node-oss": "readDir.js"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test-default": "echo \"Error: no test specified\" && exit 1",
+		"test": "npx node tasks/readDir.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Ardelon/ardelon-npx-cv"
+		"url": "git+https://github.com/Ardelon/ardelon-api-template"
 	},
 	"keywords": [
 		"alihan",
@@ -20,7 +21,7 @@
 	],
 	"author": "Alihan Keskin",
 	"bugs": {
-		"url": "https://github.com/Ardelon/ardelon-npx-cv/issues"
+		"url": "https://github.com/Ardelon/ardelon-api-template/issues"
 	},
-	"homepage": "https://github.com/Ardelon/ardelon-npx-cv/blob/master/README"
+	"homepage": "https://github.com/Ardelon/ardelon-api-template/blob/master/README"
 }
