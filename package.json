@@ -1,0 +1,26 @@
+{
+	"name": "ardelon-api-template",
+	"version": "0.0.4",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"get-set-node-oss": "index.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Ardelon/ardelon-npx-cv"
+	},
+	"keywords": [
+		"alihan",
+		"keskin",
+		"ardelon"
+	],
+	"author": "Alihan Keskin",
+	"bugs": {
+		"url": "https://github.com/Ardelon/ardelon-npx-cv/issues"
+	},
+	"homepage": "https://github.com/Ardelon/ardelon-npx-cv/blob/master/README"
+}
